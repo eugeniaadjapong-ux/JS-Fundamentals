@@ -1,8 +1,8 @@
-const fruits = ['mango', 'banana', 'orange'];
-const args = process.argv.slice(2);
+const argument = process.argv[2];
 
-if (args[0] === undefined) {
-    console.log('No argument');
-}else{
-    console.log('Argument found');
+if (argument === undefined) {
+  console.log("No argument");
+}
+else {
+  console.log(argument);
 }
